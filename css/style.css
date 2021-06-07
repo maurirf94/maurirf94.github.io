@@ -6,7 +6,7 @@ http://www.tooplate.com/view/2078-adventure
 
 */
 
-/* Body 
+/* Body
 ------------------------------------- */
 body {
     background: #ffffff;
@@ -84,7 +84,7 @@ hr {
   margin-bottom: 92px;
 }
 
-#about .section-title, #plan .section-title {
+#gift .section-title, #events .section-title {
   border-color: #ffffff;
 }
 
@@ -107,13 +107,13 @@ hr {
   font-weight: bold;
 }
 
-#work, #about, #team, 
-#portfolio, #plan, #contact {
+#work, #gift, #accomodation,
+#portfolio, #events, #rsvp {
 	padding-top: 120px;
 	padding-bottom: 100px;
 }
 
-#team, #portfolio, #contact {
+#accomodation, #portfolio, #rsvp {
   text-align: center;
 }
 
@@ -194,8 +194,8 @@ hr {
 }
 
 .custom-navbar .nav li {
-  
-}    
+
+}
 
 .custom-navbar .nav li a {
 	display: block;
@@ -373,61 +373,61 @@ hr {
 }
 
 
-/* about section styles
+/* Gift section styles
 /* ========================================== */
-#about {
+#gift {
   background: url('../images/about-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
   color: #ffffff;
 }
-#about h2 {
+#gift h2 {
   padding-bottom: 20px;
 }
 
-#about .panel-group .panel, #about .panel {
+#gift .panel-group .panel, #gift .panel {
   border-radius: 0;
 }
 
-#about .panel-heading {
+#gift .panel-heading {
   background: transparent;
   text-transform: uppercase;
   padding: 0;
 }
 
-#about .panel-title > a {
+#gift .panel-title > a {
   text-decoration: none;
   display: block;
   width: 100%;
   padding: 10px 15px;
 }
 
-#about .about-fact {
+#gift .gift-fact {
   margin-top: 82px;
   text-align: center;
   position: relative;
   display: block;
 }
 
-#about .border-right {
+#gift .border-right {
    border-right: 2px solid rgba(250,250,250,0.8);
 }
 
 
-/* team section styles
+/* Accomodation section styles
 /* ========================================== */
-#team {
+#accomodation {
   background: #f2f2f2;
 }
 
-#team h3 {
+#accomodation h3 {
   color: #ffa400;
   font-size: 14px;
   font-weight: bold;
 }
 
-#team .team-wrapper .team-des {
+#accomodation .accomodation-wrapper .accomodation-des {
   cursor: pointer;
   position: relative;
   bottom: 0;
@@ -436,12 +436,12 @@ hr {
   margin-top: 20px;
 }
 
-#team .team-wrapper:hover .team-des {
+#accomodation .accomodation-wrapper:hover .accomodation-des {
   background: #ffffff;
   bottom: 100px;
 }
 
-#team .team-wrapper .social-icon li a {
+#accomodation .accomodation-wrapper .social-icon li a {
   font-size: 16px;
 }
 
@@ -590,9 +590,9 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 
-/* plan section styles
+/* events section styles
 /* ========================================== */
-#plan {
+#events {
   background: url('../images/plan-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
@@ -600,35 +600,35 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   color: #ffffff;
 }
 
-#plan .plan {
+#events .events {
   border: 4px solid #ffffff;
   padding: 40px;
   transition: all 0.4s linear;
   margin-bottom: 20px;
 }
 
-#plan .plan:hover {
+#events .events:hover {
   background: #000000;
   border-color: #ffa400;
 }
 
-#plan .plan-title {
+#events .events-title {
   font-size: 42px;
 }
 
-#plan .plan-title, #plan .plan-price {
+#events .events-title, #events .events-price {
   padding: 16px;
 }
 
-#plan small {
+#events small {
   color: #ffa400;
 }
 
-#plan .plan-list li {
+#events .events-list li {
   padding: 10px 0 10px 0;
 }
 
-#plan .plan-button .btn {
+#events .events-button .btn {
   background: transparent;
   border: 4px solid #ffffff;
   border-radius: 0;
@@ -641,22 +641,22 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   transition: all 0.4s ease-in-out;
 }
 
-#plan .plan-button .btn:hover {
+#events .events-button .btn:hover {
   background: #ffffff;
   color: #ffa400;
   border-color: transparent;
 }
 
 
-/* contact section styles
+/* Rsvp section styles
 /* ========================================== */
-#contact .medium-icon {
+#rsvp .medium-icon {
   color: #ffa400;
   padding-top: 10px;
   padding-right: 10px;
 }
 
-#contact .form-control {
+#rsvp .form-control {
   background: transparent;
   border-radius: 0;
   box-shadow: none;
@@ -665,15 +665,15 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   transition: all 0.4s ease-in-out;
 }
 
-#contact .form-control:focus {
+#rsvp .form-control:focus {
   border-color: #ffa400;
 }
 
-#contact input {
+#rsvp input {
   height: 54px;
 }
 
-#contact input[type="submit"] {
+#rsvp input[type="submit"] {
   background: #000000;
   border: 4px solid transparent;
   color: #ffffff;
@@ -682,24 +682,24 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   height: 58px;
 }
 
-#contact input[type="submit"]:hover {
+#rsvp input[type="submit"]:hover {
   background: transparent;
   border-color: #000000;
   color: #000000;
 }
 
-#contact .contact-detail {
+#rsvp .rsvp-detail {
   background: #ffffff;
   border: 4px solid #000000;
   position: relative;
   top: 140px;
 }
 
-#contact .contact-detail .col-md-6 {
+#rsvp .rsvp-detail .col-md-6 {
   padding: 82px;
 }
 
-#contact .contact-detail .col-md-6:first-child {
+#rsvp .rsvp-detail .col-md-6:first-child {
   border-right: 4px solid #000000;
 }
 
@@ -751,7 +751,7 @@ footer h2 {
 
 
 /*------------------------------------------------------
-  RESPONSIVE STYLES 
+  RESPONSIVE STYLES
 --------------------------------------------------------*/
 @media (max-width: 1200px) {
   .bx-thumbnail-wrapper {
@@ -793,7 +793,7 @@ footer h2 {
 }
 
 @media (max-width: 768px) {
-	
+
   .slider-caption {
 	  bottom: 30px;
   }
@@ -804,12 +804,12 @@ footer h2 {
 	  font-size: 12px;
 	  line-height: 14px;
   }
-  
+
   .bx-controls-direction {
     bottom: -40px;
   }
-  
-  #about .mobile-top {
+
+  #gift .mobile-top {
     padding-top: 32px;
   }
   #work .col-md-4 {
@@ -825,16 +825,16 @@ footer h2 {
     position: relative;
     top: 62px;
   }
-  #contact .contact-detail {
+  #rsvp .rsvp-detail {
     border: 0;
   }
-  #contact .contact-detail .col-md-6:first-child {
+  #rsvp .rsvp-detail .col-md-6:first-child {
     border-right: 0;
   }
-  #contact .contact-detail .col-md-6 {
+  #rsvp .rsvp-detail .col-md-6 {
     padding: 42px;
   }
-  #contact .contact-detail {
+  #rsvp .rsvp-detail {
     top: 40px;
   }
 }
@@ -843,7 +843,7 @@ footer h2 {
   .site-slider {
     padding-top: 50px;
   }
-  #plan .plan {
+  #events .events {
     padding-right: 0;
     margin: 54px auto 54px auto;
     width: 360px;
@@ -851,7 +851,7 @@ footer h2 {
 }
 
 @media (max-width: 502px) {
-  #plan .plan {
+  #events .events {
     width: 310px;
   }
 }
