@@ -598,6 +598,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   background-size: cover;
   background-position: center;
   color: #ffffff;
+  text-align: center;
 }
 
 #events .events {
