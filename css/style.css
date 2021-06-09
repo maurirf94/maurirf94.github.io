@@ -122,6 +122,18 @@ hr {
   background-size: cover !important;
 }
 
+.hotel-icon li a span {
+  color: red;
+  font-size: 20px;
+  font-weight: 300;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  margin: 0 8px 14px 8px;
+}
 
 /* preloader styles
 /* ========================================== */
@@ -443,6 +455,34 @@ hr {
 
 #accomodation .accomodation-wrapper .social-icon li a {
   font-size: 16px;
+}
+
+#accomodation .accomodation-wrapper .hotel-icon li a span {
+  font-size: 16px;
+}
+
+.hotel-icon {
+  padding: 0;
+  margin: 0;
+}
+
+.hotel-icon li {
+  list-style: none;
+  display: inline-block;
+  padding: 6px;
+}
+
+.hotel-icon li a {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 300;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  margin: 0 8px 14px 8px;
 }
 
 
