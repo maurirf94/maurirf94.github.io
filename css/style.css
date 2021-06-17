@@ -714,6 +714,10 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   height: 54px;
 }
 
+#rsvp select {
+  height: 54px;
+}
+
 #rsvp input[type="submit"] {
   background: #000000;
   border: 4px solid transparent;
