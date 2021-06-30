@@ -27,7 +27,10 @@ html,body {
 img {
   vertical-align: middle;
 }
-
+@font-face {
+  font-family: baselliost;
+  src: url("../fonts/Baselliost.otf");
+}
 /* Typography
 ------------------------------------- */
 h1,h2,h3,h4,h5 {
@@ -204,10 +207,18 @@ hr {
     font-size: 16px;
     color: #fff;
 }
-
-.custom-navbar .nav li {
-
+.custom-navbar .nav {
+  float: none;
+  display:inline-block;
+  vertical-align: middle;
 }
+.custom-navbar .nav li {
+}
+
+.nav-title {
+    font-family: baselliost !important;
+    font-size: 3.5em !important;
+ }
 
 .custom-navbar .nav li a {
 	display: block;
@@ -217,6 +228,7 @@ hr {
     font-weight: 400;
     letter-spacing: 2px;
  }
+
 
 .custom-navbar .nav li a:hover {
   background: transparent;
