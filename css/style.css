@@ -5,35 +5,36 @@ Template 2078 Adventure
 http://www.tooplate.com/view/2078-adventure
 
 */
-
 /* Body
 ------------------------------------- */
 body {
-    background: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    position: relative;
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  position: relative;
 }
 
-html,body {
-     overflow-x: hidden;
-     font-size: 100%;
-     width: 100%;
-     -webkit-font-smoothing: antialiased;
-     -moz-osx-font-smoothing: grayscale;
-     vertical-align: baseline;
-  }
+html, body {
+  overflow-x: hidden;
+  font-size: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: baseline;
+}
 
 img {
   vertical-align: middle;
 }
+
 @font-face {
   font-family: baselliost;
   src: url("../fonts/Baselliost.otf");
 }
+
 /* Typography
 ------------------------------------- */
-h1,h2,h3,h4,h5 {
+h1, h2, h3, h4, h5 {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
@@ -76,7 +77,6 @@ hr {
   color: #FC3;
 }
 
-
 /* All Section styles
 ------------------------------------- */
 .section-title {
@@ -92,16 +92,16 @@ hr {
 }
 
 .panel {
-	background-color: #161616;
-	border: 0px;
+  background-color: #161616;
+  border: 0px;
 }
 
 .panel-title {
-	color: #FFF;
+  color: #FFF;
 }
 
 .panel-body p {
-	color: #CCC;
+  color: #CCC;
 }
 
 .medium-icon {
@@ -112,8 +112,8 @@ hr {
 
 #work, #gift, #accomodation,
 #portfolio, #events, #rsvp {
-	padding-top: 120px;
-	padding-bottom: 100px;
+  padding-top: 120px;
+  padding-bottom: 100px;
 }
 
 #accomodation, #portfolio, #rsvp {
@@ -141,17 +141,17 @@ hr {
 /* preloader styles
 /* ========================================== */
 .preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 99999;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    background: none repeat scroll 0 0 #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #fff;
 }
 
 .sk-rotating-plane {
@@ -159,41 +159,53 @@ hr {
   height: 40px;
   background-color: #ffa400;
   -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
-          animation: sk-rotatePlane 1.2s infinite ease-in-out; }
+  animation: sk-rotatePlane 1.2s infinite ease-in-out;
+}
 
 @-webkit-keyframes sk-rotatePlane {
   0% {
     -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+
   50% {
     -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+
   100% {
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
 
 @keyframes sk-rotatePlane {
   0% {
     -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+
   50% {
     -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+
   100% {
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
-
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
 
 /* navigation styles
 /* ========================================== */
 .custom-navbar {
-    background: #000000;
-    border: none;
-    margin-bottom: 0;
-    text-align: center;
+  background: #000000;
+  border: none;
+  margin-bottom: 0;
+  text-align: center;
 }
 
-.custom-navbar .navbar-brand  {
+.custom-navbar .navbar-brand {
   border: 4px solid #ffffff;
   color: #ffffff;
   font-weight: 600;
@@ -202,88 +214,90 @@ hr {
 }
 
 .custom-navbar .navbar-brand .navbar-toggle {
-    background: #ffa400;
-     padding: 4px 6px;
-    font-size: 16px;
-    color: #fff;
+  background: #ffa400;
+  padding: 4px 6px;
+  font-size: 16px;
+  color: #fff;
 }
+
 .custom-navbar .nav {
   float: none;
-  display:inline-block;
+  display: inline-block;
   vertical-align: middle;
 }
-.custom-navbar .nav li {
-}
+
+.custom-navbar .nav li {}
 
 .nav-title {
-    font-family: baselliost !important;
-    font-size: 3.5em !important;
- }
+  font-family: baselliost !important;
+  font-size: 3.5em !important;
+}
 
 .custom-navbar .nav li a {
-	display: block;
-	padding: 15px 20px;
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 2px;
- }
-
+  display: block;
+  padding: 15px 20px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
 
 .custom-navbar .nav li a:hover {
   background: transparent;
 }
 
-.custom-navbar .nav > li > a:focus {
+.custom-navbar .nav>li>a:focus {
   background-color: transparent;
   color: #ffffff;
   outline: none;
 }
 
-.custom-navbar .nav li.active > a {
+.custom-navbar .nav li.active>a {
   border-bottom: 2px solid #ffffff;
 }
 
 .custom-navbar .navbar-toggle {
-    border: none;
+  border: none;
 }
+
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #ffa400;
-    border-color: transparent;
+  background: #ffa400;
+  border-color: transparent;
 }
 
 @media(min-width:768px) {
+  .custom-navbar {
+    border-bottom: 1px solid rgba(250, 250, 250, 0.3);
+    padding: 16px;
+    background: 0 0;
+  }
 
-    .custom-navbar {
-         border-bottom: 1px solid rgba(250,250,250,0.3);
-        padding: 16px;
-       background: 0 0;
-    }
-
-    .custom-navbar.top-nav-collapse {
-       padding: 16px;
-      background: #000000;
-      border-bottom: 0;
-    }
+  .custom-navbar.top-nav-collapse {
+    padding: 16px;
+    background: #000000;
+    border-bottom: 0;
+  }
 }
 
 @media (max-width: 767px) {
-
-   .custom-navbar .nav li.active > a {
-        border-bottom: 2px solid transparent !important;
-        color: #ffa400;
-    }
-
+  .custom-navbar .nav li.active>a {
+    border-bottom: 2px solid transparent !important;
+    color: #ffa400;
+  }
 }
-
 
 /* BxSlider Section Style
 /* ========================================== */
+.site-slider{
+  position:relative;
+}
+
 .site-slider ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 .site-slider ul li {
   float: left;
   margin: 0;
@@ -320,14 +334,16 @@ hr {
   text-align: center;
   padding: 0 20px 20px 20px;
 }
+
 .slider-caption h2 {
   font-size: 48px;
   font-weight: 600;
   display: inline-block;
   margin-bottom: 24px;
 }
+
 .slider-caption p {
-	font-size: 26px;
+  font-size: 26px;
 }
 
 #bx-pager a {
@@ -339,10 +355,12 @@ hr {
   outline: 0;
   border: 0;
 }
+
 #bx-pager a.active {
   opacity: 1;
   filter: alpha(opacity=100);
 }
+
 #bx-pager a img {
   outline: 0;
   border: 0;
@@ -359,6 +377,7 @@ hr {
   right: -2px;
   z-index: 998;
 }
+
 .bx-controls-direction a {
   width: 40px;
   height: 40px;
@@ -373,6 +392,13 @@ hr {
   color: white;
 }
 
+.slider-static-text {
+  position: absolute;
+  top:30%;
+  text-align: center;
+  border: 3px solid #73AD21;
+  z-index: 999;
+}
 
 /* work section styles
 /* ========================================== */
@@ -396,7 +422,6 @@ hr {
   margin-left: 0;
 }
 
-
 /* Gift section styles
 /* ========================================== */
 #gift {
@@ -406,6 +431,7 @@ hr {
   background-position: center;
   color: #ffffff;
 }
+
 #gift h2 {
   padding-bottom: 20px;
 }
@@ -420,7 +446,7 @@ hr {
   padding: 0;
 }
 
-#gift .panel-title > a {
+#gift .panel-title>a {
   text-decoration: none;
   display: block;
   width: 100%;
@@ -435,9 +461,8 @@ hr {
 }
 
 #gift .border-right {
-   border-right: 2px solid rgba(250,250,250,0.8);
+  border-right: 2px solid rgba(250, 250, 250, 0.8);
 }
-
 
 /* Accomodation section styles
 /* ========================================== */
@@ -497,7 +522,6 @@ hr {
   margin: 0 8px 14px 8px;
 }
 
-
 /* portfolio section styles
 /* ========================================== */
 #portfolio .col-md-4 {
@@ -548,7 +572,7 @@ hr {
 }
 
 .grid figure figcaption,
-.grid figure figcaption > a {
+.grid figure figcaption>a {
   position: absolute;
   top: 0;
   left: 0;
@@ -561,12 +585,12 @@ figure.effect-zoe figcaption {
   bottom: 0;
   padding: 1em;
   height: 3.75em;
-  background: rgba(250,250,250,0.6);
+  background: rgba(250, 250, 250, 0.6);
   color: #ffffff;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
-  -webkit-transform: translate3d(0,100%,0);
-  transform: translate3d(0,100%,0);
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
 }
 
 figure.effect-zoe h2 {
@@ -591,15 +615,15 @@ figure.effect-zoe p.icon-links a {
   color: #000000 !important;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
-  -webkit-transform: translate3d(0,200%,0);
-  transform: translate3d(0,200%,0);
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
 }
 
 figure.effect-zoe:hover figcaption,
 figure.effect-zoe:hover h2,
 figure.effect-zoe:hover p.icon-links a {
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 figure.effect-zoe:hover h2 {
@@ -612,13 +636,13 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   transition-delay: 0.2s;
 }
 
-#portfolio .portfolio-bottom  {
+#portfolio .portfolio-bottom {
   padding-top: 62px;
   position: relative;
   clear: both;
 }
 
-#portfolio .portfolio-bottom h2  {
+#portfolio .portfolio-bottom h2 {
   letter-spacing: 2px;
 }
 
@@ -640,7 +664,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   color: #ffffff;
   border-color: transparent;
 }
-
 
 /* events section styles
 /* ========================================== */
@@ -699,7 +722,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   color: #ffa400;
   border-color: transparent;
 }
-
 
 /* Rsvp section styles
 /* ========================================== */
@@ -760,7 +782,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   border-right: 4px solid #000000;
 }
 
-
 /* footer section styles
 /* ========================================== */
 footer {
@@ -806,7 +827,6 @@ footer h2 {
   color: #ffffff;
 }
 
-
 /*------------------------------------------------------
   RESPONSIVE STYLES
 --------------------------------------------------------*/
@@ -826,40 +846,47 @@ footer h2 {
 
 @media (max-width: 980px) {
   .slider-caption {
-	  bottom: 60px;
+    bottom: 60px;
   }
+
   .slider-caption h2 {
-	font-size: 32px;
+    font-size: 32px;
   }
+
   .slider-caption p {
-	  font-size: 18px;
+    font-size: 18px;
   }
+
   .bx-controls-direction {
     right: 30px;
   }
+
   .bx-controls-direction {
     bottom: -40px;
   }
+
   .heading {
     font-size: 62px;
   }
-  .custom-navbar .navbar-brand  {
-	  border: none;
-	  font-size: 18px;
+
+  .custom-navbar .navbar-brand {
+    border: none;
+    font-size: 18px;
   }
 }
 
 @media (max-width: 768px) {
-
   .slider-caption {
-	  bottom: 30px;
+    bottom: 30px;
   }
+
   .slider-caption h2 {
-	font-size: 18px;
+    font-size: 18px;
   }
+
   .slider-caption p {
-	  font-size: 12px;
-	  line-height: 14px;
+    font-size: 12px;
+    line-height: 14px;
   }
 
   .bx-controls-direction {
@@ -869,28 +896,36 @@ footer h2 {
   #gift .mobile-top {
     padding-top: 32px;
   }
+
   #work .col-md-4 {
     text-align: center;
   }
+
   #work .col-md-4 hr {
     margin-left: auto;
   }
+
   .grid figure img {
-  margin-bottom: 22px;
+    margin-bottom: 22px;
   }
+
   #portfolio .portfolio-bottom {
     position: relative;
     top: 62px;
   }
+
   #rsvp .rsvp-detail {
     border: 0;
   }
+
   #rsvp .rsvp-detail .col-md-6:first-child {
     border-right: 0;
   }
+
   #rsvp .rsvp-detail .col-md-6 {
     padding: 42px;
   }
+
   #rsvp .rsvp-detail {
     top: 40px;
   }
@@ -900,6 +935,7 @@ footer h2 {
   .site-slider {
     padding-top: 50px;
   }
+
   #events .events {
     padding-right: 0;
     margin: 54px auto 54px auto;
@@ -923,6 +959,7 @@ footer h2 {
   .heading {
     font-size: 32px;
   }
+
   h5 {
     font-size: 11px;
   }
