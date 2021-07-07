@@ -31,6 +31,10 @@ img {
   font-family: baselliost;
   src: url("../fonts/Baselliost.otf");
 }
+@font-face {
+  font-family: lanenar;
+  src: url("../fonts/Lanenar.ttf");
+}
 
 /* Typography
 ------------------------------------- */
@@ -668,7 +672,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 /* events section styles
 /* ========================================== */
 #events {
-  background: url('../images/plan-bg.jpg') 50% 0 repeat-y fixed;
+  /*background: url('../images/plan-bg.jpg') 50% 0 repeat-y fixed;*/
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -684,12 +688,22 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 #events .events:hover {
-  background: #000000;
+  background: red;
   border-color: #ffa400;
 }
 
 #events .events-title {
-  font-size: 42px;
+  font-size: 56px;
+  color: black;
+  font-family: baselliost;
+  font-weight: normal;
+}
+
+#events .events-description {
+  font-size: 18px;
+  color: black;
+  font-weight: normal;
+  font-family: lanenar;
 }
 
 #events .events-title, #events .events-price {
@@ -700,15 +714,20 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   color: #ffa400;
 }
 
+#events .events-list {
+  list-style-type:none;
+}
+
 #events .events-list li {
   padding: 10px 0 10px 0;
+  color: black;
 }
 
 #events .events-button .btn {
   background: transparent;
-  border: 4px solid #ffffff;
+  border: 4px solid black;
   border-radius: 0;
-  color: #ffffff;
+  color: black;
   font-weight: bold;
   letter-spacing: 2px;
   padding: 12px 42px;
@@ -718,7 +737,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 #events .events-button .btn:hover {
-  background: #ffffff;
+  background: grey;
   color: #ffa400;
   border-color: transparent;
 }
