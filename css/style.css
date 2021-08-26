@@ -8,13 +8,13 @@ http://www.tooplate.com/view/2078-adventure
 /* Body
 ------------------------------------- */
 body {
-  background: #ffffff;
+  background-color: #F9F9F9;
+  color: #404040;
   font-family: lanenar, Arial, Helvetica, sans-serif;
   font-weight: normal;
   position: relative;
   padding-top: 83px;
 }
-
 
 html, body {
   overflow-x: hidden;
@@ -33,6 +33,7 @@ img {
   font-family: baselliost;
   src: url("../fonts/Baselliost.otf");
 }
+
 @font-face {
   font-family: lanenar;
   src: url("../fonts/Lanenar.ttf");
@@ -42,7 +43,6 @@ img {
 ------------------------------------- */
 h1, h2, h3, h4, h5 {
   font-family: lanenar, 'Raleway', sans-serif;
-  font-weight: bold;
 }
 
 h3 {
@@ -57,14 +57,12 @@ h5 {
 }
 
 .heading {
-  color: #000000;
   font-size: 62px;
   font-family: Baselliost;
   font-weight: normal;
 }
 
 p {
-  color: #727272;
   letter-spacing: 0.9px;
   line-height: 28px;
 }
@@ -88,32 +86,26 @@ hr {
 /* All Section styles
 ------------------------------------- */
 .section-title {
-  border: 4px solid #000;
   padding: 50px;
   position: relative;
   text-align: center;
   margin-bottom: 92px;
 }
 
-#gift .section-title, #events .section-title {
-  border-color: #ffffff;
-}
+#gift .section-title, #events .section-title {}
 
 .panel {
-  background-color: #161616;
   border: 0px;
 }
 
-.panel-title {
-  color: #FFF;
-}
+.panel-title {}
 
-.panel-body p {
-  color: #CCC;
+.panel-body {
+  background-color: #F9F9F9;
 }
+.panel-body p {}
 
 .medium-icon {
-  color: #ffa400;
   font-size: 36px !important;
   font-weight: bold;
 }
@@ -215,7 +207,6 @@ hr {
 
 .custom-navbar .navbar-brand {
   border: 4px solid #ffffff;
-  color: #ffffff;
   font-weight: 600;
   font-size: 24px;
   padding-top: 11px;
@@ -225,7 +216,6 @@ hr {
   background: #ffa400;
   padding: 4px 6px;
   font-size: 16px;
-  color: #fff;
 }
 
 .custom-navbar .nav {
@@ -239,6 +229,7 @@ hr {
 .nav-title {
   font-family: baselliost;
   font-size: 4vw;
+  color: #404040;
 }
 
 .nav-item {
@@ -248,8 +239,8 @@ hr {
 .custom-navbar .nav li a {
   display: block;
   padding: 15px 20px;
-  color: black;
   letter-spacing: 2px;
+  color: #404040;
 }
 
 .custom-navbar .nav li a:hover {
@@ -258,7 +249,6 @@ hr {
 
 .custom-navbar .nav>li>a:focus {
   background-color: transparent;
-  color: black;
   outline: none;
 }
 
@@ -292,12 +282,10 @@ hr {
 @media (max-width: 767px) {
   .custom-navbar .nav li.active>a {
     border-bottom: 2px solid transparent !important;
-    color: #ffa400;
   }
 }
 
 /*HOME SECTION*/
-
 .home-text {
   text-align: center;
   width: 100%;
@@ -337,8 +325,6 @@ hr {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;*/
-  background-color: darkgrey;
-  color: #ffffff;
 }
 
 #gift h2 {
@@ -360,6 +346,7 @@ hr {
   display: block;
   width: 100%;
   padding: 10px 15px;
+  background-color: #F9F9F9;
 }
 
 #gift .gift-fact {
@@ -375,14 +362,10 @@ hr {
 
 /* Accomodation section styles
 /* ========================================== */
-#accomodation {
-  background: #f2f2f2;
-}
+#accomodation {}
 
 #accomodation h3 {
-  color: #ffa400;
   font-size: 14px;
-  font-weight: bold;
 }
 
 #accomodation .accomodation-wrapper .accomodation-des {
@@ -419,7 +402,6 @@ hr {
 }
 
 .hotel-icon li a {
-  color: #000000;
   font-size: 20px;
   font-weight: 300;
   width: 40px;
@@ -559,7 +541,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   background: transparent;
   border: 4px solid #000000;
   border-radius: 0;
-  color: #000000;
   font-weight: bold;
   letter-spacing: 2px;
   padding: 12px 42px;
@@ -581,31 +562,22 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
-  color: #ffffff;
   text-align: center;
 }
 
 #events .events {
-  border: 4px solid #ffffff;
   transition: all 0.4s linear;
   margin-bottom: 20px;
 }
 
-#events .events:hover {
-  background: red;
-  border-color: #ffa400;
-}
-
 #events .events-title {
   font-size: 56px;
-  color: black;
   font-family: baselliost;
   font-weight: normal;
 }
 
 #events .events-description {
   font-size: 18px;
-  color: black;
   font-weight: normal;
 }
 
@@ -613,25 +585,21 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   padding: 16px;
 }
 
-#events small {
-  color: #ffa400;
-}
+#events small {}
 
 #events .events-list {
-  list-style-type:none;
+  list-style-type: none;
 }
 
 #events .events-list li {
   padding: 10px 0 10px 0;
-  color: black;
 }
 
 #events .events-button .btn {
   background: transparent;
-  border: 4px solid black;
+  border: 0.1px solid #404040;
   border-radius: 0;
-  color: black;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: 2px;
   padding: 12px 42px;
   margin-top: 40px;
@@ -641,14 +609,13 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 #events .events-button .btn:hover {
   background: grey;
-  color: #ffa400;
+  color: white;
   border-color: transparent;
 }
 
 /* Rsvp section styles
 /* ========================================== */
 #rsvp .medium-icon {
-  color: #ffa400;
   padding-top: 10px;
   padding-right: 10px;
 }
@@ -675,18 +642,21 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 #rsvp input[type="submit"] {
-  background: #000000;
-  border: 4px solid transparent;
-  color: #ffffff;
-  letter-spacing: 1px;
-  margin-top: 18px;
-  height: 58px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 0;
+  font-weight: normal;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  margin-top: 40px;
+  margin-right: 16px;
+  transition: all 0.4s ease-in-out;
 }
 
 #rsvp input[type="submit"]:hover {
-  background: transparent;
-  border-color: #000000;
-  color: #000000;
+  background: grey;
+  color: white;
+  border-color: transparent;
 }
 
 #rsvp .rsvp-detail {
@@ -732,8 +702,7 @@ footer h2 {
 }
 
 .social-icon li a {
-  color: #000000;
-  font-size: 20px;
+  .heading font-size: 20px;
   font-weight: 300;
   width: 40px;
   height: 40px;
@@ -886,10 +855,12 @@ footer h2 {
     font-size: 11px;
   }
 }
+
 @media (max-width: 767px) {
   body {
     padding-top: 30px;
   }
+
   .nav-title {
     font-size: 32px;
   }
