@@ -13,6 +13,9 @@ const guestList = [{
 ];
 
 loadInitialData();
+window.onscroll = function() {
+  navbarChangeBackground(document.getElementById('navbarId'))
+};
 
 
 function loadInitialData() {
@@ -79,3 +82,16 @@ function loadGuestsNumber(guest) {
   }
   return
 }
+
+
+
+function navbarChangeBackground(myNav) {
+  if (document.body.scrollTop > Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0) || document.documentElement.scrollTop > Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)) {
+    myNav.classList.add("nav-colored");
+    myNav.classList.remove("nav-transparent");
+
+  } else {
+    myNav.classList.add("nav-transparent");
+    myNav.classList.remove("nav-colored");
+  }
+};

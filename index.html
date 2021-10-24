@@ -67,7 +67,7 @@ http://www.tooplate.com/view/2078-adventure
 
 	<!-- Navigation section
 ================================================== -->
-	<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
+	<section class="navbar navbar-fixed-top custom-navbar" id="navbarId" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
 				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -78,10 +78,11 @@ http://www.tooplate.com/view/2078-adventure
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
+					<li><a href="#home" class="smoothScroll"><img src="images/title.png" class="img-responsive nav-title-img"></a></li>
 					<li><a href="#events" class="smoothScroll nav-item">&nbsp&nbspEVENTOS&nbsp&nbsp</a></li>
 					<li><a href="#accomodation" class="smoothScroll nav-item">ALOJAMIENTO</a></li>
-					<li><a href="#home" class="smoothScroll nav-title">Gimena y Mauricio</a></li>
-					<li><a href="#gift" class="smoothScroll nav-item">&nbsp&nbsp&nbspREGALO&nbsp&nbsp</a></li>
+					<!--<li><a href="#home" class="smoothScroll nav-title">Gimena y Mauricio</a></li> -->
+					<li class="nav-item"><a href="#gift" class="smoothScroll nav-item">&nbsp&nbsp&nbspREGALO&nbsp&nbsp</a></li>
 					<li><a href="#rsvp" class="smoothScroll nav-item">&nbsp&nbsp&nbspRSVP&nbsp&nbsp&nbsp</a></li>
 				</ul>
 			</div>
@@ -94,10 +95,11 @@ http://www.tooplate.com/view/2078-adventure
 	<section id="home">
 		<div class="row">
 			<div class="col-md-12 home-text">
-				<h2>¡¡¡NOS CASAMOS!!!</h2>
+				<img href="#home" src="images/leftFrame.png" class="img-responsive left-frame-img" alt="team img">
+				<!--<h2>¡¡¡NOS CASAMOS!!!</h2>
 				<p class="color-white">Pellentesque mollis purus ipsum. Fusce tristique ante et est placerat dignissim.</p>
-			</div>
-		</div> <!-- /.site-slider -->
+			</div>-->
+			</div> <!-- /.site-slider -->
 	</section>
 
 
@@ -316,7 +318,7 @@ http://www.tooplate.com/view/2078-adventure
 							</select>
 						</div>
 						<div class="col-md-4 col-sm-6">
-							<select class="form-control" name="guests" id="guestsNumber"required >
+							<select class="form-control" name="guests" id="guestsNumber" required>
 							</select>
 						</div>
 						<div class="col-md-12 col-sm-12">
