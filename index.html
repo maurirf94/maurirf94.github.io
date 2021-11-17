@@ -68,7 +68,7 @@ http://www.tooplate.com/view/2078-adventure
 	<!-- Navigation section
 ================================================== -->
 	<section class="navbar navbar-fixed-top custom-navbar" id="navbarId" role="navigation">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="icon icon-bar"></span>
@@ -78,12 +78,11 @@ http://www.tooplate.com/view/2078-adventure
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="#home" class="smoothScroll"><img src="images/title.png" class="img-responsive nav-title-img"></a></li>
-					<li><a href="#events" class="smoothScroll nav-item">&nbsp&nbspEVENTOS&nbsp&nbsp</a></li>
-					<li><a href="#accomodation" class="smoothScroll nav-item">ALOJAMIENTO</a></li>
-					<!--<li><a href="#home" class="smoothScroll nav-title">Gimena y Mauricio</a></li> -->
-					<li class="nav-item"><a href="#gift" class="smoothScroll nav-item">&nbsp&nbsp&nbspREGALO&nbsp&nbsp</a></li>
-					<li><a href="#rsvp" class="smoothScroll nav-item">&nbsp&nbsp&nbspRSVP&nbsp&nbsp&nbsp</a></li>
+					<li><a href="#home" class="smoothScroll nav-title">Gimena y Mauricio</a></li>
+					<li><a href="#events" class="smoothScroll nav-item">&nbsp&nbspeventos&nbsp&nbsp</a></li>
+					<li><a href="#accomodation" class="smoothScroll nav-item">alojamiento</a></li>
+					<li class="nav-item"><a href="#gift" class="smoothScroll nav-item">&nbsp&nbsp&nbspreglao&nbsp&nbsp</a></li>
+					<li><a href="#rsvp" class="smoothScroll nav-item">&nbsp&nbsp&nbspr.s.v.p.&nbsp&nbsp&nbsp</a></li>
 				</ul>
 			</div>
 		</div>
@@ -95,21 +94,18 @@ http://www.tooplate.com/view/2078-adventure
 	<section id="home">
 		<div class="row">
 			<div class="col-md-12 home-text">
-				<img href="#home" src="images/leftFrame.png" class="img-responsive left-frame-img" alt="team img">
-				<!--<h2>¡¡¡NOS CASAMOS!!!</h2>
-				<p class="color-white">Pellentesque mollis purus ipsum. Fusce tristique ante et est placerat dignissim.</p>
-			</div>-->
-			</div> <!-- /.site-slider -->
+			</div>
+		</div> <!-- /.site-slider -->
 	</section>
 
 
 	<!-- Events section
 ================================================== -->
 	<section id="events" class="parallax-section">
-		<div class="container">
+		<!--<div class="container">
 			<div class="row">
 
-				<!-- Section title -->
+				<!-- Section title - ->
 
 				<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
 					<div class="events">
@@ -142,7 +138,7 @@ http://www.tooplate.com/view/2078-adventure
 				</div>
 
 			</div>
-		</div>
+		</div>-->
 	</section>
 
 
@@ -305,10 +301,11 @@ http://www.tooplate.com/view/2078-adventure
 				<!-- Rsvp form section
 			================================================== -->
 				<div class="col-md-offset-1 col-md-10 col-sm-12">
-					<!--form action="https://formspree.io/f/xvodwojg" method="POST" class="wow fadeInUp" data-wow-delay="0.6s"-->
-					<form action="#" method="POST" class="wow fadeInUp" data-wow-delay="0.6s">
+
+					<form action="https://formspree.io/f/xvodwojg" method="POST" enctype="multipart/form-data" class="wow fadeInUp" data-wow-delay="0.6s">
+						<!--form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="POST" class="wow fadeInUp" data-wow-delay="0.6s" enctype="multipart/form-data"-->
 						<div class="col-md-4 col-sm-6">
-							<input type="text" class="form-control" placeholder="Nombre" name="name" id="guestName" disabled>
+							<input type="text" class="form-control" placeholder="Nombre" name="name" id="guestName" readonly>
 						</div>
 						<div class="col-md-4 col-sm-6">
 							<select class="form-control" name="attend" id="guestAttend" required onchange="loadInitialData()">
@@ -324,11 +321,18 @@ http://www.tooplate.com/view/2078-adventure
 						<div class="col-md-12 col-sm-12">
 							<textarea class="form-control" placeholder="Si cuenta con una dieta restringida por favor detallarla aquí." rows="7" name="message"></textarea>
 						</div>
+						<div class="col-md-6 col-sm-6">
+							<p>Adjuntanos tu certificado de vacunación en formato PDF</p>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<input type="file" name="attachment" accept=".pdf" required>
+						</div>
 						<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
 							<input type="submit" class="form-control" value="ENVIAR">
 						</div>
 					</form>
 				</div>
+
 
 				<!-- Rsvp detail section
 			================================================== -->

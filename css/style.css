@@ -222,13 +222,14 @@ hr {
   float: none;
   display: inline-block;
   vertical-align: middle;
+  width: 100%
 }
 
 .custom-navbar .nav li {}
 
 .nav-title {
   font-family: baselliost;
-  font-size: 4vw;
+  font-size: 6vw;
   color: #404040;
 }
 
@@ -304,9 +305,9 @@ hr {
 }
 
 .left-frame-img {
-    height: 110vh;
+    height: 80vh;
     position: relative;
-    top: 50%;
+    top: 80%;
     opacity: 70%;
 }
 

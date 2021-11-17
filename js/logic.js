@@ -1,13 +1,13 @@
 const guestList = [{
     "name": "Mauricio Rodriguez",
     "id": "1",
-    "onlyParty": true,
+    "onlyParty": false,
     "guestsNumber": 4
   },
   {
     "name": "Gimena Berton",
     "id": "2",
-    "onlyParty": false,
+    "onlyParty": true,
     "guestsNumber": 2
   }
 ];
@@ -22,6 +22,7 @@ function loadInitialData() {
   var guestId = getGuestId();
   var guest = getGuestData(guestList, guestId);
   loadGuestData(guest);
+  loadEventList(guest);
 
 }
 
@@ -83,8 +84,6 @@ function loadGuestsNumber(guest) {
   return
 }
 
-
-
 function navbarChangeBackground(myNav) {
   if (document.body.scrollTop > Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0) || document.documentElement.scrollTop > Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)) {
     myNav.classList.add("nav-colored");
@@ -94,4 +93,67 @@ function navbarChangeBackground(myNav) {
     myNav.classList.add("nav-transparent");
     myNav.classList.remove("nav-colored");
   }
-};
+}
+
+function loadEventList(guest) {
+  if (guest.onlyParty == false) {
+    document.getElementById("events").innerHTML = `
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="events">
+              <h2 class="events-title">Civil</h2>
+              <div class="events-price">
+                <h1 class="events-description">Viernes 01 de Abril – 19:00​<br>​​</h1>
+                <h1 class="events-description">Ceballos 974​</h1>
+                <h1 class="events-description">Rivera, Uruguay​ ​</h1>
+                <h1 class="events-description"><br></h1>
+              </div>
+              <div class="events-button">
+                <a href="https://goo.gl/maps/D8F11KJwszPEKGrW8" target="_blank" class="btn btn-default">Cómo llegar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="events">
+              <h2 class="events-title">Fiesta</h2>
+              <div class="events-price">
+                <h1 class="events-description">Sábado 02 de Abril – 21:00<br>​​</h1>
+                <h1 class="events-description">Solar Dom Pedro​​</h1>
+                <h1 class="events-description">R. Jose Fernandes Mendes,161 ​</h1>
+                <h1 class="events-description">Armour, Livramento, Brasil​ ​</h1>
+              </div>
+              <div class="events-button">
+                <a href="https://goo.gl/maps/g5PuB5YskT7hHGRf9" target="_blank" class="btn btn-default">Cómo llegar</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    `;
+  }
+  else{
+    document.getElementById("events").innerHTML = `
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-md-offset-3 col-sm-offset-3 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="events">
+              <h2 class="events-title">Fiesta</h2>
+              <div class="events-price">
+                <h1 class="events-description">Sábado 02 de Abril – 21:00<br>​​</h1>
+                <h1 class="events-description">Solar Dom Pedro​​</h1>
+                <h1 class="events-description">R. Jose Fernandes Mendes,161 ​</h1>
+                <h1 class="events-description">Armour, Livramento, Brasil​ ​</h1>
+              </div>
+              <div class="events-button">
+                <a href="https://goo.gl/maps/g5PuB5YskT7hHGRf9" target="_blank" class="btn btn-default">Cómo llegar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+}
