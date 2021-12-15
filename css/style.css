@@ -690,6 +690,16 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   border-right: 4px solid #000000;
 }
 
+
+/*Divider sections*/
+.firstDividerDiv {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
 /* footer section styles
 /* ========================================== */
 footer {
@@ -792,6 +802,26 @@ footer h2 {
   background-size: cover;
 }
 
+.firstDividerDiv {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/firstDivider.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.giftPhoto {
+  text-align: center;
+  width: 50%;
+  height: 100vh;
+  background-image: url('../images/giftPhoto.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 @media (max-width: 768px) {
   .slider-caption {
     bottom: 30px;
@@ -856,7 +886,17 @@ footer h2 {
     background-position: center;
     background-size: cover;
   }
+  .firstDividerDiv {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/coverImage_mobileV.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }
+
 
 @media (max-width: 767px) {
   .site-slider {
