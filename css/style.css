@@ -84,6 +84,12 @@ hr {
 
 /* All Section styles
 ------------------------------------- */
+
+section {
+  border-bottom: solid;
+  border-color: rgba(180, 180, 180, 1);
+}
+
 .section-title {
   padding: 50px;
   position: relative;
@@ -646,7 +652,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 #rsvp .form-control:focus {
-  border-color: #ffa400;
+  border-color: black;
 }
 
 #rsvp input {
