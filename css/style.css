@@ -279,7 +279,7 @@ section {
 }
 
 .nav-colored {
-  background-color: #F9F9F9;
+  background-color: white;
 }
 
 .nav-transparent {
@@ -619,20 +619,20 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 #events .events-button .btn {
   background: transparent;
-  border: 0.1px solid #404040;
+  border-style: none;
+  border-bottom-style: solid;
   border-radius: 0;
-  font-weight: normal;
   letter-spacing: 2px;
-  padding: 12px 42px;
-  margin-top: 40px;
+  padding: 6px 42px;
+  margin-top: 10px;
   margin-right: 16px;
   transition: all 0.4s ease-in-out;
+
+
 }
 
 #events .events-button .btn:hover {
-  background: grey;
-  color: white;
-  border-color: transparent;
+  font-weight: bold;
 }
 
 /* Rsvp section styles

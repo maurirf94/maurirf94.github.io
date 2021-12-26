@@ -104,13 +104,20 @@ function loadEventList(guest) {
             <div class="events">
               <h2 class="events-title">Civil</h2>
               <div class="events-price">
-                <h1 class="events-description">Viernes 01 de Abril – 19:00​<br>​​</h1>
-                <h1 class="events-description">Ceballos 974​</h1>
+                <h2 class="events-description">Ceremonia - 01.Abr.22 – 12:00​</h2>
+                <h1 class="events-description">Registro Civil - Agraciada 532</h1>
                 <h1 class="events-description">Rivera, Uruguay​ ​</h1>
-                <h1 class="events-description"><br></h1>
+                <div class="events-button">
+                  <a href="https://goo.gl/maps/D8F11KJwszPEKGrW8" target="_blank" class="btn btn-default">Cómo llegar</a>
+                </div>
               </div>
-              <div class="events-button">
-                <a href="https://goo.gl/maps/D8F11KJwszPEKGrW8" target="_blank" class="btn btn-default">Cómo llegar</a>
+              <div class="events-price">
+                <h2 class="events-description">Brindis - 01.Abr.22 – 13:00​</h2>
+                <h1 class="events-description">La Perdiz - Av. Sepé 51</h1>
+                <h1 class="events-description">Rivera, Uruguay​ ​</h1>
+                <div class="events-button">
+                  <a href="https://goo.gl/maps/D8F11KJwszPEKGrW8" target="_blank" class="btn btn-default">Cómo llegar</a>
+                </div>
               </div>
             </div>
           </div>
@@ -125,11 +132,12 @@ function loadEventList(guest) {
                 <h1 class="events-description">Armour, Livramento, Brasil​ ​</h1>
               </div>
               <div class="events-button">
+                <a href="#rsvp" class="smoothScroll btn btn-default">Confirmar asistencia</a><br>
                 <a href="https://goo.gl/maps/g5PuB5YskT7hHGRf9" target="_blank" class="btn btn-default">Cómo llegar</a>
+
               </div>
             </div>
           </div>
-
         </div>
       </div>
     `;
@@ -148,6 +156,7 @@ function loadEventList(guest) {
                 <h1 class="events-description">Armour, Livramento, Brasil​ ​</h1>
               </div>
               <div class="events-button">
+                <a href="#rsvp" class="smoothScroll btn btn-default">Confirmar asistencia</a><br>
                 <a href="https://goo.gl/maps/g5PuB5YskT7hHGRf9" target="_blank" class="btn btn-default">Cómo llegar</a>
               </div>
             </div>
