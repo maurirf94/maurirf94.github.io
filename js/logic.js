@@ -104,10 +104,10 @@ function loadEventList(guest) {
             <!-- Modal content -->
             <div class="modal-content">
               <span class="close">&times;</span>
-                <h2 class="events-title">Protocolo covid</h2>
+                <h2 class="protocol-title">Protocolo covid</h2>
                 <ul class="ulProtocol">
-                  <li><h1 class="events-description">Para concurrir a la fiesta es obligatorio estar vacunado contra el COVID-19</h1></li>
-                  <li><h1 class="events-description">Para que todos podamos disfrutar sin preocupaciones te pedimos que:</h1></li>
+                  <li><h1 class="protocol-description">Para concurrir a la fiesta es obligatorio estar vacunado contra el COVID-19</h1></li>
+                  <li><h1 class="protocol-description">Para que todos podamos disfrutar sin preocupaciones te pedimos que:</h1></li>
                   <li>-Lleves tapabocas.</li>
                   <li>-Adjuntes los certificados de vacunación de quienes concurriran al momento de confirmar asistencia o nos lo envíes por whatsapp al +59898500800. </li>
                   <li>-Lleves tu certificado a la fiesta en formato físico o digital.</li>

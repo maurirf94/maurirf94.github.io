@@ -223,7 +223,7 @@ section {
   margin: auto;
   padding: 0px 20px 40px 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 60%;
 }
 
 /* The Close Button */
@@ -243,9 +243,41 @@ section {
 
 .ulProtocol {
   list-style-type: none;
-  margin: 0% 20%;
+  margin: 0% 0%;
   text-align: left;
 }
+
+
+.home-text {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/coverImage.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.firstDividerDiv {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/firstDivider.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.giftPhoto {
+  text-align: center;
+  width: 50%;
+  height: 100vh;
+  background-image: url('../images/giftPhoto.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 
 /* navigation styles
 /* ========================================== */
@@ -349,6 +381,7 @@ navbar li {
   background-color: transparent;
 }
 
+
 @media(min-width:768px) {
   .custom-navbar {
     padding: 0px;
@@ -357,6 +390,9 @@ navbar li {
   .custom-navbar.top-nav-collapse {
     padding: 0px;
     border-bottom: 0;
+  }
+  .navbar-collapse{
+    float: right;
   }
 }
 
@@ -659,12 +695,28 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   font-weight: normal;
 }
 
+#events .protocol-title {
+  font-size: 72px;
+  font-family: baselliost;
+  font-weight: normal;
+}
+
 #events .events-description {
   font-size: 18px;
   font-weight: normal;
 }
 
+#events .protocol-description {
+  font-size: 18px;
+  font-weight: normal;
+}
+
 #events .events-title, #events .events-price {
+  padding: 16px;
+  font-size: 14px;
+}
+
+#events .protocol-title {
   padding: 16px;
 }
 
@@ -855,36 +907,6 @@ footer h2 {
   }
 }
 
-.home-text {
-  text-align: center;
-  width: 100%;
-  height: 100vh;
-  background-image: url('../images/coverImage.jpeg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.firstDividerDiv {
-  text-align: center;
-  width: 100%;
-  height: 100vh;
-  background-image: url('../images/firstDivider.jpeg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.giftPhoto {
-  text-align: center;
-  width: 50%;
-  height: 100vh;
-  background-image: url('../images/giftPhoto.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 
 @media (max-width: 768px) {
   .slider-caption {
@@ -969,6 +991,10 @@ footer h2 {
   .modal {
     padding-top: 30%; /* Location of the box */
   }
+
+  .navbar-header {
+    text-align: center;
+  }
 }
 
 
@@ -1010,7 +1036,7 @@ footer h2 {
 
 @media (max-width: 767px) {
   .nav-title {
-    font-size: 32px;
+    font-size: 60px;
   }
 
   .nav-item {
