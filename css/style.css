@@ -315,7 +315,8 @@ navbar li {
 
 .nav-title {
   font-family: baselliost;
-  font-size: 90px;
+  font-size: 7vw;
+  padding-left: 10px;
   color: #404040;
   text-decoration: none;
 }
@@ -366,6 +367,10 @@ navbar li {
 
 .custom-navbar .navbar-toggle {
   border: none;
+}
+
+.navbar-toggle {
+  margin-top: 18px;
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
@@ -713,7 +718,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 #events .events-title, #events .events-price {
   padding: 16px;
-  font-size: 14px;
+  font-size: 60px;
 }
 
 #events .protocol-title {
@@ -995,9 +1000,19 @@ footer h2 {
   .navbar-header {
     text-align: center;
   }
+  .giftPhoto {
+    display: none;
+  }
+
+  #gift .panel-group .panel, #gift .panel {
+
+    text-align: center;
+  }
+  
+  .custom-navbar{
+    background-color:  #F9F9F9;
+  }
 }
-
-
 
 
 @media (max-width: 767px) {
@@ -1019,9 +1034,6 @@ footer h2 {
 }
 
 @media (max-width: 440px) {
-  .heading {
-    font-size: 37px;
-  }
 }
 
 @media (max-width: 320px) {
@@ -1036,7 +1048,7 @@ footer h2 {
 
 @media (max-width: 767px) {
   .nav-title {
-    font-size: 60px;
+    font-size: 12vw;
   }
 
   .nav-item {
