@@ -267,6 +267,9 @@ section {
   background-position: center;
   background-size: cover;
 }
+.secondDividerDiv {
+  display: none;
+}
 
 .giftPhoto {
   text-align: center;
@@ -537,6 +540,17 @@ navbar li {
   margin: 0 8px 14px 8px;
 }
 
+#accomodation .accomodation-button .btn {
+    background: transparent;
+    border-style: none;
+    border-bottom-style: solid;
+    border-radius: 0;
+    letter-spacing: 2px;
+    padding: 6px 42px;
+    margin-top: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
 /* portfolio section styles
 /* ========================================== */
 #portfolio .col-md-4 {
@@ -743,7 +757,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   letter-spacing: 2px;
   padding: 6px 42px;
   margin-top: 10px;
-  margin-right: 16px;
   transition: all 0.4s ease-in-out;
 }
 
@@ -811,6 +824,8 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 #rsvp .rsvp-detail .col-md-6:first-child {
   border-right: 4px solid #000000;
 }
+
+
 
 /*Divider sections*/
 .firstDividerDiv {
@@ -982,7 +997,17 @@ footer h2 {
     text-align: center;
     width: 100%;
     height: 100vh;
-    background-image: url('../images/coverImage_mobileV.jpeg');
+    background-image: url('../images/firstDivider_mobileV.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .secondDividerDiv {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/firstDivider_mobileV.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1008,7 +1033,7 @@ footer h2 {
 
     text-align: center;
   }
-  
+
   .custom-navbar{
     background-color:  #F9F9F9;
   }
