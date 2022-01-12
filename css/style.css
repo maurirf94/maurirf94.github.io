@@ -87,6 +87,7 @@ hr {
 section {
   border-bottom: solid;
   border-color: rgba(180, 180, 180, 1);
+  background-color: #F9F9F9;
 }
 
 .section-title {
@@ -455,7 +456,6 @@ navbar li {
 /* Gift section styles
 /* ========================================== */
 #gift {
-  /*background: url('../images/about-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;*/
@@ -492,6 +492,10 @@ navbar li {
 
 #gift .border-right {
   border-right: 2px solid rgba(250, 250, 250, 0.8);
+}
+
+#gift .heading {
+  font-size: 6vw;
 }
 
 /* Accomodation section styles
@@ -556,6 +560,10 @@ navbar li {
   padding: 6px 42px;
   margin-top: 10px;
   transition: all 0.4s ease-in-out;
+}
+
+#accomodation .heading {
+  font-size: 6vw;
 }
 
 /* portfolio section styles
@@ -703,7 +711,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 /* events section styles
 /* ========================================== */
 #events {
-  /*background: url('../images/plan-bg.jpg') 50% 0 repeat-y fixed;*/
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -716,7 +723,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 #events .events-title {
-  font-size: 56px;
   font-family: baselliost;
   font-weight: normal;
 }
@@ -739,7 +745,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 #events .events-title, #events .events-price {
   padding: 16px;
-  font-size: 60px;
+  font-size: 6vw;
 }
 
 #events .protocol-title {
@@ -830,6 +836,10 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 #rsvp .rsvp-detail .col-md-6:first-child {
   border-right: 4px solid #000000;
+}
+
+#rsvp .heading {
+  font-size: 6vw;
 }
 
 /*Divider sections*/
@@ -1031,6 +1041,7 @@ footer h2 {
 
   .navbar-header {
     text-align: center;
+    background-color: white;
   }
 
   .giftPhoto {
@@ -1044,7 +1055,25 @@ footer h2 {
   .custom-navbar {
     background-color: #F9F9F9;
   }
+
+  #accomodation .heading {
+    font-size: 15vw;
+  }
+
+  #events .events-title, #events .events-price {
+    font-size: 15vw;
+  }
+
+  #gift .heading {
+    font-size: 15vw;
+  }
+
+  #rsvp .heading {
+    font-size: 15vw;
+  }
+
 }
+
 
 @media (max-width: 767px) {
   .site-slider {
