@@ -85,16 +85,14 @@ hr {
 /* All Section styles
 ------------------------------------- */
 section {
-  border-bottom: solid;
-  border-color: rgba(180, 180, 180, 1);
   background-color: #F9F9F9;
+  box-shadow: inset 0px 5px 5px 0px #f1f1f1;
 }
 
 .section-title {
-  padding: 50px;
+  padding: 0px 50px 50px 50px;
   position: relative;
   text-align: center;
-  margin-bottom: 92px;
 }
 
 #gift .section-title, #events .section-title {}
@@ -118,7 +116,7 @@ section {
 
 #work, #gift, #accomodation,
 #portfolio, #events, #rsvp {
-  padding-top: 120px;
+  padding-top: 60px;
   padding-bottom: 100px;
 }
 
@@ -283,7 +281,7 @@ section {
 .giftPhoto {
   text-align: center;
   width: 50%;
-  height: 100vh;
+  height: 683px;
   background-image: url('../images/giftPhoto.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -326,7 +324,7 @@ navbar li {
 
 .nav-title {
   font-family: baselliost;
-  font-size: 7vw;
+  font-size: 6.5vw;
   padding-left: 10px;
   color: #404040;
   text-decoration: none;
@@ -391,10 +389,12 @@ navbar li {
 
 .nav-colored {
   background-color: white;
+  box-shadow: none;
 }
 
 .nav-transparent {
   background-color: transparent;
+  box-shadow: none;
 }
 
 @media(min-width:768px) {
@@ -458,7 +458,8 @@ navbar li {
 #gift {
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: center;*/
+  background-position: center;
+  */
 }
 
 #gift h2 {
@@ -467,6 +468,7 @@ navbar li {
 
 #gift .panel-group .panel, #gift .panel {
   border-radius: 0;
+  background-color: white;
 }
 
 #gift .panel-heading {
@@ -480,7 +482,7 @@ navbar li {
   display: block;
   width: 100%;
   padding: 10px 15px;
-  background-color: #F9F9F9;
+  background-color: white;
 }
 
 #gift .gift-fact {
@@ -496,6 +498,15 @@ navbar li {
 
 #gift .heading {
   font-size: 6vw;
+  padding-bottom: 20px;
+}
+
+#gift .panel-body {
+  background-color: white;
+}
+
+#gift .panel-group {
+  box-shadow: 2px 0px 10px -2px #f1f1f1, -2px 0px 10px -2px #f1f1f1, 0px 2px 10px -2px #f1f1f1, 0px -2px 10px -2px #f1f1f1;
 }
 
 /* Accomodation section styles
@@ -564,6 +575,7 @@ navbar li {
 
 #accomodation .heading {
   font-size: 6vw;
+  padding-bottom: 20px;
 }
 
 /* portfolio section styles
@@ -807,20 +819,17 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 #rsvp input[type="submit"] {
   background: transparent;
-  border: 1px solid black;
+  border-style: none;
+  border-bottom-style: solid;
   border-radius: 0;
-  font-weight: normal;
   letter-spacing: 2px;
-  padding: 12px 42px;
-  margin-top: 40px;
-  margin-right: 16px;
+  padding: 6px 42px;
+  margin-top: 10px;
   transition: all 0.4s ease-in-out;
 }
 
 #rsvp input[type="submit"]:hover {
-  background: grey;
-  color: white;
-  border-color: transparent;
+  font-weight: bold;
 }
 
 #rsvp .rsvp-detail {
@@ -840,6 +849,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 #rsvp .heading {
   font-size: 6vw;
+  padding-bottom: 20px;
 }
 
 /*Divider sections*/
@@ -848,6 +858,10 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+#rsvp textarea {
+  resize: none;
 }
 
 /* footer section styles
@@ -1071,9 +1085,7 @@ footer h2 {
   #rsvp .heading {
     font-size: 15vw;
   }
-
 }
-
 
 @media (max-width: 767px) {
   .site-slider {
