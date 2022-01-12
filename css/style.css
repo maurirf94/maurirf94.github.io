@@ -864,6 +864,20 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   resize: none;
 }
 
+
+/* contact section styles
+/* ========================================== */
+
+#contact {
+  background-color: #f1f1f1;
+}
+
+#contact .section-title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
 /* footer section styles
 /* ========================================== */
 footer {
