@@ -73,6 +73,7 @@ function loadGuestsNumber(guest) {
   firstOpt.selected = true;
   firstOpt.disabled = true;
   document.getElementById('guestsNumber').appendChild(firstOpt);
+  document.getElementById('guestsNumber').required = true;
   if (attend != "no") {
     for (let i = 0; i < guest.guestsNumber; i++) {
       var opt = document.createElement('option');
@@ -80,7 +81,10 @@ function loadGuestsNumber(guest) {
       opt.innerHTML = i + 1;
       document.getElementById('guestsNumber').appendChild(opt);
     }
+  }else{
+    document.getElementById('guestsNumber').required = false;
   }
+
   return
 }
 
@@ -109,7 +113,7 @@ function loadEventList(guest) {
                   <li><h1 class="protocol-description">Para concurrir a la fiesta es obligatorio estar vacunado contra el COVID-19</h1></li>
                   <li><h1 class="protocol-description">Para que todos podamos disfrutar sin preocupaciones te pedimos que:</h1></li>
                   <li>-Lleves tapabocas.</li>
-                  <li>-Adjuntes los certificados de vacunación de quienes concurriran al momento de confirmar asistencia o nos lo envíes por whatsapp al +59898500800. </li>
+                  <li>-Nos adjuntes los certificados de vacunación de quienes concurriran en la seccion de RSVP o nos lo envíes por whatsapp al (+598) 98 500 800. </li>
                   <li>-Lleves tu certificado a la fiesta en formato físico o digital.</li>
                 </ul>
             </div>

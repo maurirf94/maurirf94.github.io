@@ -908,6 +908,10 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   pointer-events: none;
 }
 
+#rsvp .form-text {
+  margin-top : 15px
+}
+
 /* contact section styles
 /* ========================================== */
 #contact {
@@ -961,6 +965,16 @@ footer h2 {
 .social-icon li a:hover {
   background: #000000;
   color: #ffffff;
+}
+
+#error {
+  text-align: center;
+}
+
+#error h1 {
+  text-align: center;
+  font-family: baselliost;
+  font-size: 85px;
 }
 
 /*------------------------------------------------------
@@ -1101,11 +1115,19 @@ footer h2 {
     list-style-type: none;
     text-align: left;
     margin: 0;
+    padding: 0px 20px;
   }
 
   .modal {
     padding-top: 30%;
     /* Location of the box */
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+    border: 1px solid #888;
+    width: 90%;
   }
 
   .navbar-header {
