@@ -539,6 +539,11 @@ navbar li {
   font-size: 16px;
 }
 
+#accomodation .hotel-div {
+  width: 33.33333334%;
+  float: left;
+}
+
 .hotel-icon {
   padding: 0;
   margin: 0;
@@ -909,7 +914,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 #rsvp .form-text {
-  margin-top : 15px
+  margin-top: 15px
 }
 
 /* contact section styles
@@ -972,6 +977,16 @@ footer h2 {
 }
 
 #error h1 {
+  text-align: center;
+  font-family: baselliost;
+  font-size: 85px;
+}
+
+#thank-you {
+  text-align: center;
+}
+
+#thank-you h1 {
   text-align: center;
   font-family: baselliost;
   font-size: 85px;
@@ -1122,6 +1137,7 @@ footer h2 {
     padding-top: 30%;
     /* Location of the box */
   }
+
   .modal-content {
     background-color: #fefefe;
     margin: auto;
@@ -1149,6 +1165,33 @@ footer h2 {
 
   #accomodation .heading {
     font-size: 15vw;
+  }
+
+  #accomodation .hotel-div {
+    width: 50%;
+    float: left;
+  }
+
+  #accomodation .accomodation-des {
+    padding: 31px 22px 31px 22px !important;
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+  }
+
+  #accomodation .accomodation-des h4 {
+    font-size: 15px;
+    height: 33px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #accomodation .accomodation-des h3 {
+    margin-top: 11px;
+    margin-bottom: 5px;
+  }
+
+  #accomodation .accomodation-button .btn {
+    padding: 6px 24px;
   }
 
   #events .events-title, #events .events-price {
