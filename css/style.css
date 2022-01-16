@@ -42,15 +42,16 @@ img {
 ------------------------------------- */
 h1, h2, h3, h4, h5 {
   font-family: lanenar, 'Raleway', sans-serif;
+  color: #181818;
 }
 
 h3 {
-  color: #525252;
+  color: #181818;
   letter-spacing: 1px;
 }
 
 h5 {
-  color: #ffa400;
+  color: #181818;
   letter-spacing: 4px;
   padding-top: 22px;
 }
@@ -59,11 +60,13 @@ h5 {
   font-size: 62px;
   font-family: Baselliost;
   font-weight: normal;
+  color: #404040;
 }
 
 p {
   letter-spacing: 0.9px;
   line-height: 28px;
+  color: #181818;
 }
 
 a {
@@ -357,7 +360,7 @@ navbar li {
   display: block;
   padding: 15px 20px;
   letter-spacing: 2px;
-  color: #404040;
+  color: #181818;
   margin: 32.5px 0px;
 }
 
@@ -576,6 +579,7 @@ navbar li {
   padding: 6px 42px;
   margin-top: 10px;
   transition: all 0.4s ease-in-out;
+  color: #181818;
 }
 
 #accomodation .heading {
@@ -717,6 +721,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   margin-top: 40px;
   margin-right: 16px;
   transition: all 0.4s ease-in-out;
+  color: #181818;
 }
 
 #portfolio .portfolio-bottom .btn:hover {
@@ -742,6 +747,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 #events .events-title {
   font-family: baselliost;
   font-weight: normal;
+  color: #404040;
 }
 
 #events .protocol-title {
@@ -788,6 +794,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   padding: 6px 42px;
   margin-top: 10px;
   transition: all 0.4s ease-in-out;
+  color: #181818;
 }
 
 #events .events-button .btn:hover {
@@ -832,6 +839,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   margin-top: 10px;
   transition: all 0.4s ease-in-out;
   box-shadow: none;
+  color: #181818;
 }
 
 #rsvp input[type="submit"]:hover {
@@ -1164,7 +1172,7 @@ footer h2 {
   }
 
   #accomodation .heading {
-    font-size: 15vw;
+    font-size: 17vw;
   }
 
   #accomodation .hotel-div {
@@ -1192,18 +1200,27 @@ footer h2 {
 
   #accomodation .accomodation-button .btn {
     padding: 6px 24px;
+    color: #181818;
   }
 
   #events .events-title, #events .events-price {
-    font-size: 15vw;
+    font-size: 17vw;
+  }
+
+  #events .events-description {
+    font-size: 14px;
   }
 
   #gift .heading {
-    font-size: 15vw;
+    font-size: 17vw;
   }
 
   #rsvp .heading {
-    font-size: 15vw;
+    font-size: 17w;
+  }
+
+  .btn {
+    font-size: 12px;
   }
 }
 
