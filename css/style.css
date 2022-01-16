@@ -384,7 +384,11 @@ navbar li {
 }
 
 .navbar-toggle {
-  margin-top: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-right: 20px;
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
@@ -394,12 +398,16 @@ navbar li {
 
 .nav-colored {
   background-color: white;
-  box-shadow: none;
 }
 
 .nav-transparent {
   background-color: transparent;
   box-shadow: none;
+}
+
+.img-menuIcon{
+  width: 20px;
+  height: 20px;
 }
 
 @media(min-width:768px) {
@@ -763,7 +771,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 #events .events-description {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
 }
 
@@ -1252,6 +1260,15 @@ footer h2 {
 
   #events .events-description-title {
     font-size: 15px;
+  }
+
+  #events .ulProtocol {
+    font-size: 14px;
+  }
+
+  #events .protocol-description {
+    font-size: 15px;
+    font-weight: normal;
   }
 
   #gift .heading {
