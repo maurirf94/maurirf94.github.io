@@ -89,7 +89,7 @@ hr {
 ------------------------------------- */
 section {
   background-color: #F6F6F6;
-  box-shadow: inset 0px 5px 5px 0px #f1f1f1;
+  box-shadow: inset 0px 5px 5px 0px #d9d9d9;
 }
 
 .section-title {
@@ -294,7 +294,7 @@ section {
 /* navigation styles
 /* ========================================== */
 .custom-navbar {
-  background-color: trasparent;
+  background-color: transparent;
   border: none;
   margin-bottom: 0;
   text-align: center;
@@ -771,9 +771,13 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   font-weight: normal;
 }
 
-#events .events-title, #events .events-price {
+#events .events-title {
   padding: 16px;
   font-size: 6vw;
+}
+
+#events .events-price{
+  padding: 16px;
 }
 
 #events .protocol-title {
@@ -933,7 +937,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 /* contact section styles
 /* ========================================== */
 #contact {
-  background-color: #f1f1f1;
+  background-color: white;
 }
 
 #contact .section-title {
@@ -1185,7 +1189,7 @@ footer h2 {
   }
 
   .custom-navbar {
-    background-color: #F6F6F6;
+    background-color: white;
   }
 
   #accomodation .heading {
