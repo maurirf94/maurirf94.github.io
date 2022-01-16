@@ -8,7 +8,7 @@ http://www.tooplate.com/view/2078-adventure
 /* Body
 ------------------------------------- */
 body {
-  background-color: #F9F9F9;
+  background-color: #F6F6F6;
   color: #404040;
   font-family: lanenar, Arial, Helvetica, sans-serif;
   font-weight: normal;
@@ -88,7 +88,7 @@ hr {
 /* All Section styles
 ------------------------------------- */
 section {
-  background-color: #F9F9F9;
+  background-color: #F6F6F6;
   box-shadow: inset 0px 5px 5px 0px #f1f1f1;
 }
 
@@ -107,7 +107,7 @@ section {
 .panel-title {}
 
 .panel-body {
-  background-color: #F9F9F9;
+  background-color: #F6F6F6;
 }
 
 .panel-body p {}
@@ -761,6 +761,11 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   font-weight: normal;
 }
 
+#events .events-description-title {
+  font-size: 18px;
+  font-weight: normal;
+}
+
 #events .protocol-description {
   font-size: 18px;
   font-weight: normal;
@@ -1000,6 +1005,18 @@ footer h2 {
   font-size: 85px;
 }
 
+#thank-you .thank-you-button .btn {
+  background: transparent;
+  border-style: none;
+  border-bottom-style: solid;
+  border-radius: 0;
+  letter-spacing: 2px;
+  padding: 6px 42px;
+  margin-top: 10px;
+  transition: all 0.4s ease-in-out;
+  color: #181818;
+}
+
 /*------------------------------------------------------
   RESPONSIVE STYLES
 --------------------------------------------------------*/
@@ -1128,7 +1145,7 @@ footer h2 {
     text-align: center;
     width: 100%;
     height: 100vh;
-    background-image: url('../images/firstDivider_mobileV.jpg');
+    background-image: url('../images/giftPhoto.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1168,7 +1185,7 @@ footer h2 {
   }
 
   .custom-navbar {
-    background-color: #F9F9F9;
+    background-color: #F6F6F6;
   }
 
   #accomodation .heading {
@@ -1203,6 +1220,10 @@ footer h2 {
     color: #181818;
   }
 
+  #accomodation p {
+    font-size: 14px;
+  }
+
   #events .events-title, #events .events-price {
     font-size: 17vw;
   }
@@ -1211,12 +1232,40 @@ footer h2 {
     font-size: 14px;
   }
 
+  #events .events-description-title {
+    font-size: 15px;
+  }
+
   #gift .heading {
     font-size: 17vw;
   }
 
+  #gift .panel-title {
+    font-size: 15px;
+  }
+
+  #gift .panel-body {
+    font-size: 14px;
+  }
+
   #rsvp .heading {
-    font-size: 17w;
+    font-size: 17vw;
+  }
+
+  #rsvp p {
+    font-size: 14px;
+  }
+
+  #rsvp .inputfile+label {
+    font-size: 14px;
+  }
+
+  #contact p {
+    font-size: 14px;
+  }
+
+  #error h3 {
+    font-size: 14px;
   }
 
   .btn {

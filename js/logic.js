@@ -122,7 +122,7 @@ function loadEventList(guest) {
             <div class="events">
               <h2 class="events-title">Civil</h2>
               <div class="events-price">
-                <h2 class="events-description">Ceremonia - 01.Abr.22 – 12:00​</h2>
+                <h2 class="events-description-title">Ceremonia - 01.Abr.22 – 12:00​</h2>
                 <h1 class="events-description">Registro Civil - Agraciada 532</h1>
                 <h1 class="events-description">Rivera, Uruguay​ ​</h1>
                 <div class="events-button">
@@ -130,7 +130,7 @@ function loadEventList(guest) {
                 </div>
               </div>
               <div class="events-price">
-                <h2 class="events-description">Brindis - 01.Abr.22 – 13:00​</h2>
+                <h2 class="events-description-title">Brindis - 01.Abr.22 – 13:00​</h2>
                 <h1 class="events-description">La Perdiz - Av. Sepé 51</h1>
                 <h1 class="events-description">Rivera, Uruguay​ ​</h1>
                 <div class="events-button">
@@ -144,7 +144,7 @@ function loadEventList(guest) {
             <div class="events">
               <h2 class="events-title">Fiesta</h2>
               <div class="events-price">
-                <h1 class="events-description">Sábado 02 de Abril – 21:00<br>​​</h1>
+                <h1 class="events-description-title">Sábado 02 de Abril – 21:00<br>​​</h1>
                 <h1 class="events-description">Solar Dom Pedro​​</h1>
                 <h1 class="events-description">R. Jose Fernandes Mendes,161 ​</h1>
                 <h1 class="events-description">Armour, Livramento, Brasil​ ​</h1>
