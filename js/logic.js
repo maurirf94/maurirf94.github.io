@@ -1091,8 +1091,8 @@ function loadEventList(guest) {
                   <li><h1 class="protocol-description">Para concurrir a la fiesta es obligatorio estar vacunado contra el COVID-19</h1></li>
                   <li><h1 class="protocol-description">Para que todos podamos disfrutar sin preocupaciones te pedimos que:</h1></li>
                   <li>-Lleves tapabocas.</li>
-                  <li>-Nos adjuntes los certificados de vacunación de quienes concurriran en la seccion de RSVP o nos lo envíes por whatsapp al (+598) 98 500 800. </li>
-                  <li>-Lleves tu certificado a la fiesta en formato físico o digital.</li>
+                  <li>-Adjuntes en la sección de RSVP los certificados de vacunación de quienes concurrirán o los envíes por Whatsapp </li>
+                  <li>-Lleves tu certificado a la fiesta impreso o en formato digital.</li>
                 </ul>
             </div>
           </div>
