@@ -1146,7 +1146,14 @@ function loadEventList(guest) {
             <!-- Modal content -->
             <div class="modal-content">
               <span class="close">&times;</span>
-              <p>Some text in the Modal..</p>
+                <h2 class="protocol-title">Protocolo covid</h2>
+                <ul class="ulProtocol">
+                  <li><h1 class="protocol-description">Para concurrir a la fiesta es obligatorio estar vacunado contra el COVID-19</h1></li>
+                  <li><h1 class="protocol-description">Para que todos podamos disfrutar sin preocupaciones te pedimos que:</h1></li>
+                  <li>-Lleves tapabocas.</li>
+                  <li>-Adjuntes en la sección de RSVP los certificados de vacunación de quienes concurrirán o los envíes por Whatsapp </li>
+                  <li>-Lleves tu certificado a la fiesta impreso o en formato digital.</li>
+                </ul>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-md-offset-3 col-sm-offset-3 wow fadeInUp" data-wow-delay="0.3s">
@@ -1160,7 +1167,8 @@ function loadEventList(guest) {
               </div>
               <div class="events-button">
                 <a href="#rsvp" class="smoothScroll btn btn-default">Confirmar asistencia</a><br>
-                <a href="https://goo.gl/maps/g5PuB5YskT7hHGRf9" target="_blank" class="btn btn-default">Cómo llegar</a>
+                <a href="https://goo.gl/maps/g5PuB5YskT7hHGRf9" target="_blank" class="btn btn-default">Cómo llegar</a><br>
+                <a id="btnProtocol" class="smoothScroll btn btn-default">Protocolo COVID</a>
               </div>
             </div>
           </div>
