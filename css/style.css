@@ -240,10 +240,11 @@ section {
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
+  color: #404040;
   float: right;
   font-size: 28px;
   font-weight: bold;
+  opacity: 1;
 }
 
 .close:hover,
@@ -796,6 +797,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 #events .protocol-title {
   padding: 16px;
+  color: #404040;
 }
 
 #events small {}
@@ -823,6 +825,10 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 #events .events-button .btn:hover {
   font-weight: bold;
+}
+
+#btnCloseModal{
+  font-size: 12px;
 }
 
 /* Rsvp section styles

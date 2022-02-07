@@ -1055,8 +1055,13 @@ function loadGuestsNumber(guest) {
   if (attend != "no") {
     for (let i = 0; i < guest.guestsNumber; i++) {
       var opt = document.createElement('option');
-      opt.value = i + 1;
-      opt.innerHTML = i + 1;
+      if (i == 0){
+        opt.value = (i + 1) + ' Invitado';
+        opt.innerHTML = (i + 1)+ ' Invitado';
+      }else{
+        opt.value = (i + 1) + ' Invitados';
+        opt.innerHTML = (i + 1)+ ' Invitados';
+      }
       document.getElementById('guestsNumber').appendChild(opt);
     }
   }else{
@@ -1094,6 +1099,9 @@ function loadEventList(guest) {
                   <li>-Adjuntes en la sección de RSVP los certificados de vacunación de quienes concurrirán o los envíes por Whatsapp </li>
                   <li>-Lleves tu certificado a la fiesta impreso o en formato digital.</li>
                 </ul>
+                <div class="events-button">
+                  <a id="btnCloseModal" class="smoothScroll btn btn-default">Cerrar</a>
+                </div>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -1104,7 +1112,7 @@ function loadEventList(guest) {
                 <h1 class="events-description">IDR - Agraciada 570</h1>
                 <h1 class="events-description">Rivera, Uruguay​ ​</h1>
                 <div class="events-button">
-                  <a href="https://goo.gl/maps/7ywCR46raWJtt6xb9" target="_blank" class="btn btn-default">Cómo llegar</a>
+                  <a href="https://goo.gl/maps/7ywCR46raWJtt6xb9" target="_blank" class="btn btn-default">Ver mapa</a>
                 </div>
               </div>
               <div class="events-price">
@@ -1112,7 +1120,7 @@ function loadEventList(guest) {
                 <h1 class="events-description">La Perdiz - Av. Sepé 51</h1>
                 <h1 class="events-description">Rivera, Uruguay​ ​</h1>
                 <div class="events-button">
-                  <a href="https://goo.gl/maps/rJgdBDUp7yyDHHVB9" target="_blank" class="btn btn-default">Cómo llegar</a>
+                  <a href="https://goo.gl/maps/rJgdBDUp7yyDHHVB9" target="_blank" class="btn btn-default">Ver mapa</a>
                 </div>
               </div>
             </div>
@@ -1130,7 +1138,7 @@ function loadEventList(guest) {
               </div>
               <div class="events-button">
                 <a href="#rsvp" class="smoothScroll btn btn-default">Confirmar asistencia</a><br>
-                <a href="https://goo.gl/maps/g5PuB5YskT7hHGRf9" target="_blank" class="btn btn-default">Cómo llegar</a><br>
+                <a href="https://goo.gl/maps/g5PuB5YskT7hHGRf9" target="_blank" class="btn btn-default">Ver mapa</a><br>
                 <a id="btnProtocol" class="smoothScroll btn btn-default">Protocolo COVID</a>
               </div>
             </div>
@@ -1150,9 +1158,9 @@ function loadEventList(guest) {
                 <ul class="ulProtocol">
                   <li><h1 class="protocol-description">Para concurrir a la fiesta es obligatorio estar vacunado contra el COVID-19</h1></li>
                   <li><h1 class="protocol-description">Para que todos podamos disfrutar sin preocupaciones te pedimos que:</h1></li>
-                  <li>-Lleves tapabocas.</li>
+                  <li>-Lleves tapabocas</li>
                   <li>-Adjuntes en la sección de RSVP los certificados de vacunación de quienes concurrirán o los envíes por Whatsapp </li>
-                  <li>-Lleves tu certificado a la fiesta impreso o en formato digital.</li>
+                  <li>-Lleves tu certificado a la fiesta impreso o en formato digital</li>
                 </ul>
             </div>
           </div>
@@ -1167,7 +1175,7 @@ function loadEventList(guest) {
               </div>
               <div class="events-button">
                 <a href="#rsvp" class="smoothScroll btn btn-default">Confirmar asistencia</a><br>
-                <a href="https://goo.gl/maps/g5PuB5YskT7hHGRf9" target="_blank" class="btn btn-default">Cómo llegar</a><br>
+                <a href="https://goo.gl/maps/g5PuB5YskT7hHGRf9" target="_blank" class="btn btn-default">Ver mapa</a><br>
                 <a id="btnProtocol" class="smoothScroll btn btn-default">Protocolo COVID</a>
               </div>
             </div>
@@ -1188,6 +1196,10 @@ var btn = document.getElementById("btnProtocol");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
+// Get the button element that closes the modal
+var closeBtn = document.getElementById("btnCloseModal");
+
+
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
@@ -1195,6 +1207,11 @@ btn.onclick = function() {
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks de close button, close the modal
+closeBtn.onclick = function() {
   modal.style.display = "none";
 }
 
