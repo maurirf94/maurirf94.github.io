@@ -987,6 +987,12 @@ const guestList = [{
     "id": "303",
     "onlyParty": true,
     "guestsNumber": 1
+  },
+  {
+    "name": "Davis Laban",
+    "id": "65030",
+    "onlyParty": true,
+    "guestsNumber": 2
   }
 ];
 
@@ -1108,16 +1114,9 @@ function loadEventList(guest) {
             <div class="events">
               <h2 class="events-title">Civil</h2>
               <div class="events-price">
-                <h2 class="events-description-title">Ceremonia - 01.Abr.22 – 11:00​</h2>
-                <h1 class="events-description">IDR - Agraciada 570</h1>
-                <h1 class="events-description">Rivera, Uruguay​ ​</h1>
-                <div class="events-button">
-                  <a href="https://goo.gl/maps/7ywCR46raWJtt6xb9" target="_blank" class="btn btn-default">Ver mapa</a>
-                </div>
-              </div>
-              <div class="events-price">
-                <h2 class="events-description-title">Brindis - 01.Abr.22 – 12:00​</h2>
-                <h1 class="events-description">La Perdiz - Av. Sepé 51</h1>
+                <h2 class="events-description-title">Viernes 01.Abr.22 – 18:00</h2>
+                <h1 class="events-description">La Perdiz</h1>
+                <h1 class="events-description">Av. Sepé 51 - 1° Piso</h1>
                 <h1 class="events-description">Rivera, Uruguay​ ​</h1>
                 <div class="events-button">
                   <a href="https://goo.gl/maps/rJgdBDUp7yyDHHVB9" target="_blank" class="btn btn-default">Ver mapa</a>
