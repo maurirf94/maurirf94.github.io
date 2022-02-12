@@ -59,7 +59,7 @@ const guestList = [{
     "guestsNumber": 2
   },
   {
-    "name": "Hugo Lara y Patricia",
+    "name": "Hugo Lara y Patricia Fernández",
     "id": "89904",
     "onlyParty": true,
     "guestsNumber": 2
@@ -596,7 +596,7 @@ const guestList = [{
     "name": "Juan José Barrios",
     "id": "60971",
     "onlyParty": true,
-    "guestsNumber": 1
+    "guestsNumber": 2
   },
   {
     "name": "Martha Rodriguez",
@@ -758,7 +758,7 @@ const guestList = [{
     "name": "Mariela Rodriguez",
     "id": "76658",
     "onlyParty": false,
-    "guestsNumber": 1
+    "guestsNumber": 2
   },
   {
     "name": "Carlos Martinez y Sra.",
