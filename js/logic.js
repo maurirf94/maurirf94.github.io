@@ -377,7 +377,7 @@ const guestList = [{
     "guestsNumber": 2
   },
   {
-    "name": "Elisa Fagundez y Gonzalo Moreira",
+    "name": "Elizabeth Fagundez y Gonzalo Moreira",
     "id": "39285",
     "onlyParty": true,
     "guestsNumber": 2
