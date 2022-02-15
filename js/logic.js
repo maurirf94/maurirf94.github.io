@@ -993,6 +993,18 @@ const guestList = [{
     "id": "65030",
     "onlyParty": true,
     "guestsNumber": 2
+  },
+  {
+    "name": "Luciane Acevedo",
+    "id": "306",
+    "onlyParty": true,
+    "guestsNumber": 1
+  },
+  {
+    "name": "Tatiana Acevedo",
+    "id": "307",
+    "onlyParty": true,
+    "guestsNumber": 1
   }
 ];
 
