@@ -1064,7 +1064,7 @@ function loadGuestsNumber(guest) {
   var attend = document.getElementById('guestAttend').value;
   var firstOpt = document.createElement('option');
   firstOpt.value = '';
-  firstOpt.innerHTML = 'Invitados';
+  firstOpt.innerHTML = 'Cuantos asistirán';
   firstOpt.className = 'first-option';
   firstOpt.selected = true;
   firstOpt.disabled = true;
@@ -1074,11 +1074,11 @@ function loadGuestsNumber(guest) {
     for (let i = 0; i < guest.guestsNumber; i++) {
       var opt = document.createElement('option');
       if (i == 0){
-        opt.value = (i + 1) + ' Invitado';
-        opt.innerHTML = (i + 1)+ ' Invitado';
+        opt.value = (i + 1) + ' Persona';
+        opt.innerHTML = (i + 1)+ ' Persona';
       }else{
-        opt.value = (i + 1) + ' Invitados';
-        opt.innerHTML = (i + 1)+ ' Invitados';
+        opt.value = (i + 1) + ' Personas';
+        opt.innerHTML = (i + 1)+ ' Personas';
       }
       document.getElementById('guestsNumber').appendChild(opt);
     }
