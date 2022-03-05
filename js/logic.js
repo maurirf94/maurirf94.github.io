@@ -1005,6 +1005,24 @@ const guestList = [{
     "id": "307",
     "onlyParty": true,
     "guestsNumber": 1
+  },
+  {
+    "name": "Alejandro Gómez y Sra.",
+    "id": "308",
+    "onlyParty": true,
+    "guestsNumber": 2
+  },
+  {
+    "name": "Vicente Correa",
+    "id": "54805",
+    "onlyParty": true,
+    "guestsNumber": 1
+  },
+  {
+    "name": "Joaquín Dellepiane",
+    "id": "54809",
+    "onlyParty": true,
+    "guestsNumber": 1
   }
 ];
 
