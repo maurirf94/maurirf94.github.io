@@ -1023,6 +1023,30 @@ const guestList = [{
     "id": "54809",
     "onlyParty": true,
     "guestsNumber": 1
+  },
+  {
+    "name": "Ana Inés Lesa",
+    "id": "101",
+    "onlyParty": true,
+    "guestsNumber": 2
+  },
+  {
+    "name": "Fátima Olivera",
+    "id": "102",
+    "onlyParty": true,
+    "guestsNumber": 2
+  },
+  {
+    "name": "Natalia Bado",
+    "id": "103",
+    "onlyParty": true,
+    "guestsNumber": 2
+  },
+  {
+    "name": "Syomara Bazzini",
+    "id": "104",
+    "onlyParty": true,
+    "guestsNumber": 1
   }
 ];
 
