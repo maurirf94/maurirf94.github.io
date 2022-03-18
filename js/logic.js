@@ -1047,6 +1047,12 @@ const guestList = [{
     "id": "104",
     "onlyParty": true,
     "guestsNumber": 1
+  },
+  {
+    "name": "Gabriel Icart y Sra.",
+    "id": "105",
+    "onlyParty": true,
+    "guestsNumber": 2
   }
 ];
 
