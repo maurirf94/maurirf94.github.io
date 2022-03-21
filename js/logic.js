@@ -1222,7 +1222,11 @@ function getGuestId() {
 
 
 function loadGuestName(guest) {
-  document.getElementById("guestName").value = guest.name;
+  if(guest.id == 1025){
+    document.getElementById("guestName").removeAttribute("readonly");
+  }else{
+    document.getElementById("guestName").value = guest.name;
+  }
   return
 }
 
